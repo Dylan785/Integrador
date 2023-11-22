@@ -1,17 +1,17 @@
-package org.example;
+package org.example.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Generos {
+public class Genero {
 
     private String name;
 
     private int id;
 
-    public Generos() {
+    public Genero() {
     }
-    public Generos(String name, int id) {
+    public Genero(String name, int id) {
         this.name = name;
         this.id = id;
     }
