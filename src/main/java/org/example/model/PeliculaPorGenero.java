@@ -1,4 +1,4 @@
-package org.example.connection.database;
+package org.example.model;
 
 public class PeliculaPorGenero {
 

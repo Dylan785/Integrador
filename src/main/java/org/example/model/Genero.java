@@ -1,14 +1,7 @@
 package org.example.model;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class Genero {
-
     private String name;
-
     private int id;
-
     public Genero() {
     }
     public Genero(String name, int id) {
@@ -21,11 +14,9 @@ public class Genero {
     public void setName(String name) {
         this.name = name;
     }
-
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }

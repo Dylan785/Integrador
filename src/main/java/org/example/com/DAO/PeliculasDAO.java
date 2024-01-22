@@ -10,13 +10,6 @@ public interface PeliculasDAO {
     public boolean EliminarPelicula(Pelicula peliculas) throws Exception;
     public boolean ActualizarPelicula(Pelicula peliculas) throws Exception;
     public Boolean BuscarPeliculaPorTitulo(Pelicula peliculas) throws Exception;
-
     public Boolean BuscarPorGenero(Genero genero, Pelicula peliculas) throws SQLException;
-
     public List<Pelicula> MostrarTodasPeliculas(Pelicula peliculas) throws Exception;
-
-
-
-
-
 }
